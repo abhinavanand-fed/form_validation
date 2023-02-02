@@ -1,0 +1,57 @@
+.form-validation {
+  width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.form-validation-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-validation-submit-button,
+.form-validation-create-account-button {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-validation-create-account-button {
+  background-color: #fff;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.form-validation-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
